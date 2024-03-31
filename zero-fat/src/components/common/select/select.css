@@ -1,0 +1,32 @@
+.select-group {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+select {
+  width: 250px;
+  padding: 8px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  padding: 10px;
+  margin-left: 10px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  border-bottom: 1px solid #addfa4;
+  font-size: 16px;
+}
+.select-group label span:nth-child(2) {
+  color: red;
+}

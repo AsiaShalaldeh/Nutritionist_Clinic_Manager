@@ -1,0 +1,44 @@
+.filter-bar > .input-group > input {
+  background-color: white;
+  border-radius: 20px;
+  line-height: 1.8;
+  width: 300px;
+}
+.filter-bar > .input-group > input:focus {
+  outline: 1px solid #008600 !important;
+}
+.program {
+  display: none;
+}
+.programs-table {
+  margin: 30px auto;
+  border-collapse: collapse;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 13px 7px 20px 0px rgb(0 0 0 / 15%);
+}
+.programs-table tbody tr td,
+.programs-table tbody th {
+  color: black;
+  text-align: left;
+  padding: 10px 30px;
+  text-align: center;
+}
+.programs-table thead tr th {
+  padding: 10px 30px;
+  color: #fff;
+  text-align: center;
+  background-color: rgb(83, 170, 83);
+  font-size: 20px;
+}
+table tbody tr {
+  font-size: 25px;
+}
+table tbody tr button {
+  border: none;
+  box-shadow: 4px 2px 7px 0px grey;
+  padding: 5px;
+  cursor: pointer;
+  margin: 10px;
+}

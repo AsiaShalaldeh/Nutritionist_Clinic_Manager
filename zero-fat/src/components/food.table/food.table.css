@@ -1,0 +1,51 @@
+.add-new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 7px;
+  margin: 40px;
+  border: none;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  box-shadow: 4px 4px 5px 0px grey;
+  padding: 15px 20px;
+  font-size: 18px;
+}
+.add-new p {
+  margin: 0;
+}
+.food-table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.food-table th,
+.food-table td {
+  padding: 10px 45px;
+}
+.food-table thead tr {
+  background-color: rgb(83, 170, 83);
+  color: white;
+}
+.food-table- {
+  box-shadow: 13px 7px 20px 0px rgb(0 0 0 / 15%);
+}
+table tbody tr {
+  font-size: 25px;
+}
+table tbody tr button {
+  border: none;
+  box-shadow: 4px 2px 7px 0px grey;
+  padding: 5px;
+  cursor: pointer;
+}
+button:active {
+  transform: translate(-3px, -3px);
+}
+table tbody tr .actions button {
+  margin-right: 16px;
+}

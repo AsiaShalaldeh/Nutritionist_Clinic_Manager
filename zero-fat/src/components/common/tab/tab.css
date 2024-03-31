@@ -1,0 +1,20 @@
+.select .option {
+  display: none;
+}
+.container {
+  border-radius: 10px;
+  border: 1px solid #84c184;
+}
+.tab {
+  border-radius: 10px;
+}
+.data {
+  padding: 30px 45px;
+  line-height: 2;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #def1de;
+  border-radius: 10px;
+  margin-top: 40px;
+  letter-spacing: 1.5px;
+}

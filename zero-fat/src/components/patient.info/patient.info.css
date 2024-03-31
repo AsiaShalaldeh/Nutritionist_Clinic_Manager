@@ -1,0 +1,33 @@
+.patient-info fieldset {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  /* border: 1px solid green; */
+  border-radius: 20px;
+  padding: 10px;
+  margin: 30px 30px;
+}
+/* .patient-info fieldset legend {
+  font-size: 20px;
+} */
+.city {
+  padding-left: 40px;
+}
+.patient-info {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0 10px 10px;
+}
+.info-container {
+  display: flex;
+  /* box-shadow: 3px 3px 8px 5px #bfbfbf; */
+  /* padding: 35px 20px 35px 0; */
+  gap: 10px;
+  position: relative;
+}
+.info-container .patient {
+  /* position: absolute; 
+  height: 100%; */
+  width: 50%;
+}
